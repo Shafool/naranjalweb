@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Pagina Web "El Naranjal"</title>
+    <title>Recreo Naranjal Sitio Web</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,34 +41,39 @@
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul class="mein_menu_list" id="navigation">
-                                        <li><a href="about.html">Acerca de</a></li>
-                                        <li><a href="service.html">Servicios</a></li>
-                                        <li><a href="menu.html">menu</a></li>
-                                        <li><a href="gallery.html">galeria</a></li>
-                                        <div class="logo-img d-none d-lg-block">
+                                    <div class="logo-img d-none d-lg-block">
                                                 <a href="index.html">
                                                     <img src="{{asset('plugins/ColorLib/img/logo.png')}}">
                                                 </a>
                                             </div>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                        <li><a href="acerca.html">Acerca de</a></li>
+                                        <li><a href="#">Carta <i class="ti-angle-down"></i></a>
+                                        <ul class="submenu">
+                                                <li><a href="blog.html">Ceviches</a></li>
+                                                <li><a href="single-blog.html">Chicharrones</a></li>
+                                                <li><a href="single-blog.html">Sudados</a></li>
+                                                <li><a href="single-blog.html">Mariscos</a></li>
+                                                <li><a href="single-blog.html">Frituras</a></li>
+                                                <li><a href="single-blog.html">Platos criollos</a></li>
+                                                <li><a href="single-blog.html">Selva</a></li>
+                                                <li><a href="single-blog.html">Chilcanos</a></li>
+                                            </ul>
+                                        <li><a href="#">Servicios <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
+                                                <li><a href="blog.html">Grass sintetico</a></li>
+                                                <li><a href="single-blog.html">Piscina</a></li>
+                                                <li><a href="single-blog.html">Local de Eventos</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elementos</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contactos</a></li>
+                                        <li><a href="promociones.html">Promociones</a></li>
+                                
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                             <div class="custom_order">
-                                <a href="#" class="boxed_btn_white">Orden Personalizado</a>
+                                <a href="#" class="boxed_btn_white">Contactos</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -87,30 +92,23 @@
     <!-- header-end -->
 
     <!-- slider_area-start -->
-    <div class="slider_area zigzag_bg_2">
-        <div class="slider_sctive owl-carousel">
-            <div class="single_slider slider_img_1">
-            
-                <div class="single_slider-iner">
-                    <div class="slider_contant text-center">
-                        <h3>Recreo Campestre <br>
-                            "El Naranjal"</h3>
-                            <p>Somos un Centro Recreacional Campestre que busca<br>
-                            satisfacer al cliente brindandole servicios<br>
-                            para su entretenimiento y diversion. </p>
-                    </div>
+     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
+       <div class="breadcam_inner">
+        <div class="breadcam_text">
+                     <h3><mark>Recreo Campestre<mark> <br> "El Naranjal"</h3>
+                    <p><mark>El Naranjal es un centro recreacional campestre que cuenta con diferentes espacios recreativos. <br> como campos de fulbito y voley, una piscina semiolimpica, restaurante y salon de recepciones.<br> ademas de areas libres para el uso del publico visitante.</mark></p> 
+                
                 </div>
             </div>
-            <div class="single_slider slider_img_1">
-                <div class="single_slider-iner">
-                    <div class="slider_contant text-center">
-                    <h3>Recreo Campestre <br>
-                            "El Naranjal"</h3>
-                            <p>Somos un Centro Recreacional Campestre que busca<br>
-                            satisfacer al cliente brindandole servicios<br>
-                            para su entretenimiento y diversion. </p>
-                    </div>
+    </div>
+   <!-- <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
+            <div class="breadcam_inner">
+                <div class="breadcam_text">
+                    <h3>El Naranjal</h3>
+                    <p>El Naranjal es un centro recreacional campestre que cuenta con diferentes espacios recreativos. <br> como campos de fulbito y voley, una piscina semiolimpica, restaurante y salon de recepciones.<br> ademas de areas libres para el uso del publico visitante.</p>
                 </div>
+            </div>
+    </div>
             </div>
             <div class="single_slider slider_img_1 ">
                 <div class="single_slider-iner">
@@ -124,7 +122,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- slider_area-end -->
 
     <!-- service_area-start -->
@@ -230,7 +228,7 @@
                         <div class="section_title mb-70">
                             <h3>Platos Populares</h3>
                             <p>Entre la gran variedad de platos que ofrecemos a nuestros comensales,<br> 
-                                nosotros como negocio sacamos que tenemos unos platos que son los prefiridos de los clientes. </p>
+                                Tenemos a los mas preferidos por nuestros comensales. </p>
                         </div>
                     </div>
                 </div>
@@ -328,7 +326,7 @@
                         <div class="order_thumb">
                             <img src="{{ asset ('plugins/ColorLib/img/order/Plato6.jpeg')}}" alt="">
                             <div class="order_prise">
-                                <span>25.00</span>
+                                <span> 25.00</span>
                             </div>
                         </div>
                         <div class="order_info">
@@ -345,94 +343,6 @@
         </div>
     </div>
     <!-- order_area_end -->
-
-    <!-- testmonial_area_start 
-    <div class="testmonial_area banner-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title white mb-60">
-                        <h3>Feedback from Customers</h3>
-                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards <br> especially in the workplace. That’s why it’s crucial that, as women.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/1.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adame Nesane</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/2.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adam Nahan</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/1.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adame Nesane</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/2.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adam Nahan</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/1.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adame Nesane</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                        <div class="single_testmonial d-flex">
-                            <div class="testmonial_thumb">
-                                <img src="img/testmonial/2.png" alt="">
-                            </div>
-                            <div class="testmonial_author">
-                                <h3>Adam Nahan</h3>
-                                <span>Chief Customer</span>
-                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won one
-                                    yielding creepeth third give may never lie alternet food.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- testmonial_area_end -->
-
     <!-- brand_area-start -->
     <div class="brand_area">
         <div class="container">
@@ -443,138 +353,56 @@
                         <p>Somos un negocio que busca satisfacer las necesidades nuestros clientes con estandares de calidad
                              <br>trabajando en mejorar con los servicios prestados</p>
                     </div>
+                    <div>  <iframe src="https://goo.gl/maps/Zo6R9nZf5sSyTeoV6"
+                  marginwidth="0" marginheight="0" name="ventana_iframe" scrolling="no" border="0" 
+                  frameborder="0" width="800" height="600">
+                  </iframe>
+          </div>
                 </div>
-            </div>
-            <div class="row">
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/1.png" alt="">
-                        </div>
+         </div>
                     </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/02.png" alt="">
-                        </div>
                     </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/03.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/04.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/05.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/06.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/7.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/12.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/9.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/10.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/11.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="single_brand">
-                            <img src="img/brand/8.png" alt="">
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
     <!-- brand_area-end -->
 
-    <!-- footer-start -->
-    <footer class="footer_area footer-bg zigzag_bg_1">
+        <!-- footer-start -->
+        <footer class="footer_area footer-bg zigzag_bg_1">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Ranking platos
-                           <!-- <ul>
-                                <li><a href="#">Managed Website</a></li>
-                                <li><a href="#"> Manage Reputation</a></li>
-                                <li><a href="#">Power Tools</a></li>
-                                <li><a href="#">Marketing Service</a></li>
+                                    Telefono
+                            </h3>
+                            <ul>
+                                <li><a href="#">+51 987654321</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Quick Links
+                                    Correos
                             </h3>
                             <ul>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Brand Assets</a></li>
-                                <li><a href="#"> Investor Relations</a></li>
-                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">recreonaranjal@gmail.com</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"> </a></li>
+                                <li><a href="#"></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="heading">
-                                    Features
-                            </h3>
-                            <ul>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Brand Assets</a></li>
-                                <li><a href="#">Investor Relations</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="heading">
-                                    Resources
-                            </h3>
-                            <ul>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="#">Experts</a></li>
-                                <li><a href="#">Agencies</a></li>
-                            </ul>
-                        </div>
-                    </div>!-->
                     <div class="col-xl-4 col-md-12 col-lg-4">
                         <div class="footer_widget">
                             <h3 class="heading">
-                                    Sugerencias
+                                    Correos
                             </h3>
-                            <p class="offer_text" >Introduzca su correo</p>
+                            <p class="offer_text" >Escriba su mensaje</p>
                             <form action="#">
-                                <input type="text" placeholder="Your email address">
+                                <input type="text" placeholder="Ingrese su correo">
                                 <button type="submit"> <i class="ti-arrow-right"></i> </button>
                             </form>
                         </div>
@@ -588,7 +416,7 @@
                     <div class="col-xl-7 col-md-12 col-lg-8">
                         <div class="copyright">
                                 <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Derechos Reservados  <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"></a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los Derechos Reservados |<i class="fa fa-heart-o" aria-hidden="true"></i> 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                         </div>
                     </div>
@@ -605,8 +433,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Derec
                 </div>
             </div>
         </div>
+                    </div>
     </footer>
     <!-- footer-end -->
+
 
 
     <!-- JS here -->
