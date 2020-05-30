@@ -29,6 +29,7 @@
                                             <li><a href="blog.html">Grass sintetico</a></li>
                                             <li><a href="single-blog.html">Piscina</a></li>
                                             <li><a href="single-blog.html">Local de Eventos</a></li>
+                                            <li><a href="single-blog.html">Reservaciones</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="promociones.html">Promociones</a></li>
@@ -39,7 +40,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                         <div class="custom_order">
-                            <a href="#" class="boxed_btn_white">Contactos</a>
+                            <a href="login.html" class="boxed_btn_white">Login</a>
                         </div>
                     </div>
                     <div class="col-12">

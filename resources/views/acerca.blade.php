@@ -12,8 +12,8 @@
     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
             <div class="breadcam_inner">
                 <div class="breadcam_text">
-                    <h3>{{ $titulo }}</h3>
-                    <p>{{ $descripcion }}</p>
+                    <h3><mark>{{ $titulo }}</mark></h3>
+                    <p><mark>{{ $descripcion }}</mark></p>
                 </div>
             </div>
     </div>
