@@ -46,7 +46,7 @@
                         <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                     <div class="logo-img-small d-sm-block d-md-block d-lg-none">
-                            <a href="index.html">
+                            <a href="{{ route('rutaInicio') }}">
                                 <img src="{{asset('plugins/ColorLib/img/logo.png')}}" alt="">
                             </a>
                         </div>

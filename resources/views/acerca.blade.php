@@ -12,8 +12,8 @@
     <div class="breadcam_area breadcam_bg_1 zigzag_bg_2">
             <div class="breadcam_inner">
                 <div class="breadcam_text">
-                    <h3><mark>El Naranjal</mark></h3>
-                    <p><mark>El Naranjal es un centro recreacional campestre que cuenta con diferentes espacios recreativos. <br> como campos de fulbito y voley, una piscina semiolimpica, restaurante y salon de recepciones.<br> ademas de areas libres para el uso del publico visitante.</mark></p>
+                    <h3>{{ $titulo }}</h3>
+                    <p>{{ $descripcion }}</p>
                 </div>
             </div>
     </div>
