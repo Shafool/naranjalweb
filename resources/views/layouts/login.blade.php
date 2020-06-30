@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<title>Inicio Sesion "El Naranjal"</title>
 	<meta charset="UTF-8">

@@ -1,0 +1,87 @@
+body{
+    background-color: #DEDEDE;
+}
+
+div.seccion{
+    border-radius: 10px;
+    border-color: slategrey;
+    border-width: 1px;
+    border-style: solid;
+    background-color: whitesmoke;
+    
+}
+
+.subsubtitulo{
+    font-size: 24px;
+}
+
+/* Fotos */
+
+div .fotoProducto{
+  transition: .13s;
+}
+div .fotoProducto:hover{
+  transform: scale(0.99);
+  transition: .13s;
+}
+
+div .burbuja {
+  cursor: pointer;
+  left: 6px;
+  top: 6px;
+  border-radius: 3px;
+  display: block;
+  z-index: 1;
+  position: absolute;
+}
+
+div .modulo-dentro{
+  position: relative;
+}
+
+div.modulo{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  transition: 0.2s;
+}
+div .modulo:hover{
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.modulo-titulo{
+  color: white;
+  font-weight: bold;
+}
+
+.modulo-desc{
+  color: white;
+  font-weight: bold;
+  transition: 0.18s;
+}
+
+a.modulo-link:link {
+  color: white;
+  transition: 0.18s;
+}
+
+/* visited link */
+a.modulo-link:visited {
+  color: white;
+  transition: 0.18s;
+}
+
+/* mouse over link */
+a.modulo-link:hover {
+  color: white;
+  font-weight: bold;
+  transition: 0.18s;
+}
+
+/* selected link */
+a.modulo-link:active {
+  color: white;
+  transition: 0.1s;
+}

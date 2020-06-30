@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProductosTable extends Migration
+class CreateReservasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateProductosTable extends Migration
      */
     public function up()
     {
-        Schema::create('productos', function (Blueprint $table) {
+        Schema::create('reservas', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre');
-            $table->decimal('precio', 8, 2); // Ejm: S/ 102506.52
-            $table->longText('descripcion');
-            $table->foreignId('categoria_id')->constrained('categorias')->onDelete('cascade');
+            $table->dateTime('fecha_inicio');
+            $table->dateTime('fecha_fin');
+            $table->foreignId('servicio_id')->constrained('servicios');
+            $table->foreignId('cliente_id')->constrained('clientes');
+            $table->foreignId('usuario_id')->constrained('usuarios');
 
             // Campos de seguridad
             $table->boolean('activado'); // 1: Activado, 0: Desact
@@ -26,13 +27,13 @@ class CreateProductosTable extends Migration
         });
     }
 
-    /**
+    /*
      * Reverse the migrations.
      *
      * @return void
      */
     public function down()
     {
-        Schema::dropIfExists('productos');
+        Schema::dropIfExists('reservas');
     }
 }

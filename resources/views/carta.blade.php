@@ -17,6 +17,7 @@
 
     <!-- Categorias -->
     @foreach($categorias as $cat)
+    @if(sizeof($cat->productos) > 0)
         <div class="order_area">
             <div class="container">
                 <div class="row">
@@ -31,15 +32,14 @@
                 <div class="row">
                 <!-- Pintamos todos los productos  -->
 
-                    @foreach($productos as $prod)
-                    @if ($prod->categoria === $cat->id)
-                        <div class="col-xl-4 col-md-6">
+                    @foreach($cat->productos as $prod)
+                    <div class="col-xl-4 col-md-6">
                             <div class="single_order">
                                 <div class="order_thumb">
 
                                     <!-- Buscar entre todas las imagenes, si existe, mostrar la primera -->
-                                    @foreach($fotos as $f)
-                                    @if($f->producto === $prod->id && $f->orden === 1)
+                                    @foreach($prod->fotos as $f)
+                                    @if($f !== NULL)
                                         <img src="{{ asset('storage/imagenes/sitio/productos/' . $f->nombre) }}" alt="$f->nombre">
                                         @break
                                     @endif
@@ -56,12 +56,12 @@
                                 </div>
                             </div>
                         </div>
-                    @endif
                     @endforeach()
                     
                 </div>
             </div>
         </div>
+    @endif
     @endforeach()
     
     @extends('footer')

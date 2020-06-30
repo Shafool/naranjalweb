@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFotoProductosTable extends Migration
+class CreateFotoServiciosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,12 @@ class CreateFotoProductosTable extends Migration
      */
     public function up()
     {
-        Schema::create('foto_productos', function (Blueprint $table) {
+        Schema::create('foto_servicios', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre')->unique();
+            $table->string('nombre')->unique()->nullable();
             $table->integer('orden');
-            $table->foreignId('producto_id')->constrained('productos')->onDelete('cascade');
+            // Cuando se elimine el producto, se eliminaran tambien las fotos
+            $table->foreignId('servicio_id')->constrained('servicios')->onDelete('cascade');
 
             $table->timestamps();
         });
@@ -30,6 +31,6 @@ class CreateFotoProductosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('foto_productos');
+        Schema::dropIfExists('foto_servicios');
     }
 }

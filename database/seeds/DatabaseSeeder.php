@@ -25,13 +25,62 @@ class DatabaseSeeder extends Seeder
             'activado' => TRUE,
         
         ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Sudados",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Mariscos",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Combos",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Platos Criollos",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Selva",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Frituras",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Chilcanos",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
+        DB::table('categorias')->insert([
+            'nombre' => "Bebidas",
+            'descripcion' => "Aquí encontrarás nuestra carta de chicharrones",
+            'activado' => TRUE,
+        
+        ]);
 
         // Productos
+        /*
         DB::table('productos')->insert([
             'nombre' => "Ceviche de Pescado",
             'precio' => 20,
             'descripcion' => "Delicioso ceviche de pescado con algas y platanos fritos.",
-            'categoria' => 1,
+            'categoria_id' => 1,
             'activado' => TRUE,
         
         ]);
@@ -39,7 +88,7 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Ceviche Mixto",
             'precio' => 22,
             'descripcion' => "Todos los sabores del mar.",
-            'categoria' => 1,
+            'categoria_id' => 1,
             'activado' => TRUE,
         
         ]);
@@ -47,7 +96,7 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Ceviche de Doncella",
             'precio' => 22,
             'descripcion' => "Delicioso ceviche de Doncella con limón, ají limo y chifles",
-            'categoria' => 1,
+            'categoria_id' => 1,
             'activado' => TRUE,
         
         ]);
@@ -56,7 +105,7 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Chicharrón de Doncella",
             'precio' => 20,
             'descripcion' => "Delicioso chicharrón de Doncella con arróz chaufa, chifles y mayonesa",
-            'categoria' => 2,
+            'categoria_id' => 2,
             'activado' => TRUE,
         
         ]);
@@ -64,7 +113,7 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Chicharrón de Pescado",
             'precio' => 18,
             'descripcion' => "Delicioso chicharrón de Doncella con arróz chaufa, chifles y mayonesa",
-            'categoria' => 2,
+            'categoria_id' => 2,
             'activado' => TRUE,
         
         ]);
@@ -72,7 +121,7 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Jalea Simple",
             'precio' => 22,
             'descripcion' => "Jalea simple.",
-            'categoria' => 2,
+            'categoria_id' => 2,
             'activado' => TRUE,
         
         ]);
@@ -80,23 +129,24 @@ class DatabaseSeeder extends Seeder
             'nombre' => "Chicharrón Mixto",
             'precio' => 22,
             'descripcion' => "Delicioso chicharrón de Doncella con arróz chaufa, chifles y mayonesa",
-            'categoria' => 2,
+            'categoria_id' => 2,
             'activado' => TRUE,
         
-        ]);
+        ]);*/
 
         /* Fotos de los productos */
+        /*
         DB::table('foto_productos')->insert([
             'nombre' => "ceviche_doncella.jpeg",
             'orden' => 1,
-            'producto' => 3,
+            'producto_id' => 3,
         
         ]);
         DB::table('foto_productos')->insert([
             'nombre' => "chicharron_doncella.jpeg",
             'orden' => 1,
-            'producto' => 4,
+            'producto_id' => 4,
         
-        ]);
+        ]);*/
     }
 }
